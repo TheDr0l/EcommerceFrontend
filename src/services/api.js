@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api'; // La URL de Spring Boot
+const API_URL = 'https://exemplary-delight-production-bf10.up.railway.app/api'; // La URL
 
 const api = axios.create({
     baseURL: API_URL,
